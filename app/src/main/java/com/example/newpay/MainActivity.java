@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, transaction.class);
+                Intent intent = new Intent(MainActivity.this, BarcodeCaptureActivity.class);
                 startActivity(intent);
             }
         });
