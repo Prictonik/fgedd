@@ -24,8 +24,8 @@ public class LiderOrUser extends AppCompatActivity {
         {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LiderOrUser.this, MainLider.class);
-                startActivity(intent);
+                Intent intent1 = new Intent(LiderOrUser.this, MainLider.class);
+                startActivity(intent1);
             }
         });
 
@@ -33,7 +33,7 @@ public class LiderOrUser extends AppCompatActivity {
         {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(LiderOrUser.this, MainUser.class);
+                Intent intent = new Intent(LiderOrUser.this, BarcodeCaptureActivity.class);
                 startActivity(intent);
             }
         });

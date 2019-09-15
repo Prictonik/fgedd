@@ -20,6 +20,7 @@ import android.graphics.Canvas;
 import android.util.AttributeSet;
 import android.view.View;
 
+import com.example.newpay.BarcodeGraphic;
 import com.google.android.gms.vision.CameraSource;
 
 import java.util.HashSet;
@@ -51,6 +52,19 @@ public class GraphicOverlay<T extends GraphicOverlay.Graphic> extends View {
     private float mHeightScaleFactor = 1.0f;
     private int mFacing = CameraSource.CAMERA_FACING_BACK;
     private Set<T> mGraphics = new HashSet<>();
+
+    public float getWidthScaleFactor() {
+        return getWidthScaleFactor();
+    }
+
+    public float getHeightScaleFactor() {
+        return getHeightScaleFactor();
+    }
+
+    public Iterable<? extends BarcodeGraphic> getGraphics() {
+        return getGraphics();
+    }
+
 
     /**
      * Base class for a custom graphics object to be rendered within the graphic overlay.  Subclass
@@ -200,11 +214,17 @@ public class GraphicOverlay<T extends GraphicOverlay.Graphic> extends View {
             if ((mPreviewWidth != 0) && (mPreviewHeight != 0)) {
                 mWidthScaleFactor = (float) canvas.getWidth() / (float) mPreviewWidth;
                 mHeightScaleFactor = (float) canvas.getHeight() / (float) mPreviewHeight;
+
+
             }
 
             for (Graphic graphic : mGraphics) {
                 graphic.draw(canvas);
             }
         }
+
+       // Intent intent3 = new Intent(this, MainActivity.class);
+        //startActivity(intent3);
+
     }
 }

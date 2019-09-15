@@ -5,22 +5,22 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="184dp"
-        android:layout_height="35dp"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="103dp"
-        android:layout_marginTop="188dp"
+        android:layout_marginTop="168dp"
         android:text="Liber loby" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="171dp"
+        android:layout_width="176dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="111dp"
-        android:layout_marginTop="262dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="250dp"
         android:text="User loby" />
 
 </RelativeLayout>

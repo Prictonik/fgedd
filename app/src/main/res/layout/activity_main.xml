@@ -1,61 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.088" />
-
-    <EditText
-        android:id="@+id/EditText1"
-        android:layout_width="165dp"
-        android:layout_height="38dp"
-        android:layout_marginStart="128dp"
-        android:layout_marginTop="72dp"
-        android:text="EditText1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
     <EditText
         android:id="@+id/EditText2"
-        android:layout_width="173dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="128dp"
-        android:layout_marginTop="84dp"
-        android:text="EditText2"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/EditText1" />
-
-    <Button
-        android:id="@+id/button"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
-        android:layout_marginTop="100dp"
-        android:text="Региистрация"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/EditText2" />
+        android:layout_height="462dp"
+        android:text="@string/_34d63a8494c444dabe650689f194e5e118d2d936"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="275dp" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:layout_marginEnd="92dp"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+
+
+        android:layout_width="141dp"
+
+        android:layout_height="96dp"
+        android:layout_gravity="center"
         android:text="Вход"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         app:layout_constraintTop_toBottomOf="@+id/EditText2" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

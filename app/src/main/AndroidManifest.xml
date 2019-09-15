@@ -26,6 +26,7 @@
         <activity android:name=".MainUser"></activity>
         <activity android:name=".MainLider"></activity>
         <activity android:name=".OcrCaptureActivity"></activity>
+        <activity android:name=".BarcodeCaptureActivity"></activity>
     </application>
 
 </manifest>
