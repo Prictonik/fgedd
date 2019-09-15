@@ -21,12 +21,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".QRCameraView"></activity>
-        <activity android:name=".LiderOrUser"></activity>
-        <activity android:name=".MainUser"></activity>
+        <activity android:name=".Check"></activity>
         <activity android:name=".MainLider"></activity>
         <activity android:name=".OcrCaptureActivity"></activity>
         <activity android:name=".BarcodeCaptureActivity"></activity>
+        <activity android:name=".transaction"></activity>
     </application>
 
 </manifest>

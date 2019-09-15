@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -16,18 +17,19 @@
 
     <ImageButton
         android:id="@+id/imageButton4"
-        android:layout_width="127dp"
-        android:layout_height="111dp"
+        android:layout_width="141dp"
+        android:layout_height="105dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="285dp"
-        android:layout_marginTop="455dp"
-        android:contentDescription="TODO"
-        app:srcCompat="@color/colorPrimaryDark" />
+        android:layout_marginStart="247dp"
+        android:layout_marginTop="487dp"
+        tools:src="@mipmap/mone"
+        tools:srcCompat="@android:drawable/btn_star_big_on" />
 
     <LinearLayout
         android:id="@+id/linearlayout"
         android:layout_width="match_parent"
+
         android:layout_height="357dp"
         android:orientation="vertical"></LinearLayout>
 
